@@ -44,7 +44,7 @@ const Navbar = () => {
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-50`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
@@ -58,10 +58,10 @@ const Navbar = () => {
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+            <button className="text-primary font-semibold rounded-xl  py-3 mt-3 px-7  bg-yellow">
+              LogIn
+            </button>
           </ul>
-          <button className="text-primary font-semibold rounded-xl  py-3 mt-3 px-7  bg-yellow">
-            LogIn
-          </button>
         </div>
       </div>
     </nav>

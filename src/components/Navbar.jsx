@@ -24,9 +24,12 @@ const Navbar = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
-        <button className="text-primary font-bold tracking-wider rounded-xl  py-2 mt-3 px-7  bg-yellow ml-12">
+        <a
+          href="/https://p2p-frontend-ebon.vercel.app/"
+          className="text-primary font-bold tracking-wider rounded-xl  py-2 mt-3 px-7  bg-yellow ml-12"
+        >
           Login
-        </button>
+        </a>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">

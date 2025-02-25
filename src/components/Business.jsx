@@ -27,7 +27,9 @@ const FeatureCard = ({ icon: Icon, title, content, index }) => (
 const Business = () => (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>You trade, we handle the rest.</h2>
+      <h2 className={styles.heading2}>
+        Seamless Crypto Trading, Anytime, Anywhere.
+      </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Send and receive crypto with minimal fees—fast, secure, and hassle-free.
         Pay through any bank, wallet address, or blockchain network with ease.

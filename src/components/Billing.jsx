@@ -57,15 +57,23 @@ const Billing = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Easily control your billing & invoicing
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Manage transactions effortlessly with transparent fees and flexible
-        payment options across banks, wallets, and networks.
-      </p>
+      <h2 className={styles.heading2}>Easily Trade & Select Lower Fee Rates</h2>
+      <ul className="flex flex-col gap-2 mt-5">
+        <li className="list-disc text-gray-400 text-sm font-medium tracking-wider">
+          Flexible Fee Options – Choose traders with the lowest fees that match
+          your budget.
+        </li>
+        <li className="list-disc text-gray-400 text-sm font-medium tracking-wider">
+          Direct Peer-to-Peer Transactions – No hidden costs, just transparent
+          and fair pricing.
+        </li>
+        <li className="list-disc text-gray-400 text-sm font-medium tracking-wider">
+          Maximize Your Profits – Keep more of your earnings with lower
+          transaction fees.
+        </li>
+      </ul>
 
-      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+      {/* <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
         <img
           src={apple}
           alt="google_play"
@@ -76,7 +84,7 @@ const Billing = () => (
           alt="google_play"
           className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
         />
-      </div>
+      </div> */}
     </div>
   </section>
 );

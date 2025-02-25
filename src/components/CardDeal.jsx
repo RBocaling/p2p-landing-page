@@ -6,13 +6,21 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Find a Better Deal in Just a Few Easy Steps
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
-      </p>
+      <ul className="flex flex-col gap-2 mt-5">
+        <li className="list-disc text-gray-400 text-sm font-medium tracking-wider">
+          Browse Offers – Compare multiple sellers and buyers with competitive
+          rates.
+        </li>
+        <li className="list-disc text-gray-400 text-sm font-medium tracking-wider">
+          Choose the Best Deal – Select the offer that suits your price and
+          payment preference.
+        </li>
+        <li className="list-disc text-gray-400 text-sm font-medium tracking-wider">
+          Trade Securely – Complete the transaction with our trusted merchants.
+        </li>
+      </ul>
 
       <Button styles={`mt-10`} />
     </div>

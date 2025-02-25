@@ -55,9 +55,9 @@ export const features = [
   {
     id: "feature-3",
     icon: BsFillSendCheckFill,
-    title: "Borderless Payments",
+    title: "User Empowerment & Control",
     content:
-      "Instantly trade crypto worldwide with no restrictions—fast, secure, and hassle-free.",
+      "Trade directly with peers without middlemen or banks. Set your own prices, terms, and payment methods.",
   },
 ];
 
@@ -92,18 +92,18 @@ export const stats = [
   {
     id: "stats-1",
     title: "User Active",
-    value: "10+",
+    value: "5000+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Users",
-    value: "10+",
+    title: "Trusted by Merchants",
+    value: "50+",
   },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "100+",
-  },
+  // {
+  //   id: "stats-3",
+  //   title: "Transaction",
+  //   value: "100+",
+  // },
 ];
 
 export const footerLinks = [

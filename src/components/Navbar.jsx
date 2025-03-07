@@ -26,7 +26,6 @@ const Navbar = () => {
         ))}
         <a
           href="https://app.cryptop2p.ph/sign-in"
-          target="_blank"
           className="text-primary font-bold tracking-wider rounded-xl  py-2 mt-3 px-7  bg-yellow ml-12"
         >
           Login

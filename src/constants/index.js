@@ -24,16 +24,12 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "about",
+    title: "About Us",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
+    id: "contact",
+    title: "Contact Us",
   },
 ];
 
@@ -48,9 +44,9 @@ export const features = [
   {
     id: "feature-2",
     icon: IoShieldCheckmarkSharp,
-    title: "100% Secure",
+    title: "Partnered with Trusted Merchants",
     content:
-      "Our platform ensures end-to-end encryption and escrow protection for safe transactions.",
+      "Our platform only list trusted Merchants to ensure that your funds are safe",
   },
   {
     id: "feature-3",
@@ -96,7 +92,7 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "Trusted by Merchants",
+    title: "Trusted Merchants",
     value: "50+",
   },
   // {
@@ -217,14 +213,14 @@ export const clients = [
 export const availableBank = [
   {
     label: "BDO",
-    icon: "/p2p-logo.png",
+    icon: "/android-chrome-512x512.png",
   },
   {
     label: "Security Bank",
-    icon: "/p2p-logo.png",
+    icon: "/android-chrome-512x512.png",
   },
   {
     label: "BPI",
-    icon: "/p2p-logo.png",
+    icon: "/android-chrome-512x512.png",
   },
 ];

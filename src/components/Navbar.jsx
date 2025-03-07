@@ -25,7 +25,7 @@ const Navbar = () => {
           </li>
         ))}
         <a
-          href="https://p2p-frontend-ebon.vercel.app/"
+          href="https://app.cryptop2p.ph/sign-in"
           target="_blank"
           className="text-primary font-bold tracking-wider rounded-xl  py-2 mt-3 px-7  bg-yellow ml-12"
         >
@@ -58,9 +58,12 @@ const Navbar = () => {
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
-            <button className="text-primary font-semibold rounded-xl  py-3 mt-3 px-7  bg-yellow">
+            <a
+              href="https://app.cryptop2p.ph/sign-in"
+              className="text-primary font-semibold rounded-xl  py-3 mt-3 px-7  bg-yellow"
+            >
               LogIn
-            </button>
+            </a>
           </ul>
         </div>
       </div>

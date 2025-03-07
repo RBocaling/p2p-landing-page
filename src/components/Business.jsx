@@ -35,9 +35,12 @@ const Business = () => (
         Pay through any bank, wallet address, or blockchain network with ease.
       </p>
 
-      <button className="text-primary font-semibold rounded-xl  py-3 mt-3 px-7  bg-yellow">
+      <a
+        href="https://app.cryptop2p.ph/sign-in"
+        className="text-primary font-semibold rounded-xl  py-3 mt-3 px-7  bg-yellow"
+      >
         Get Started
-      </button>
+      </a>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
